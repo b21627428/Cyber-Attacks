@@ -12,4 +12,4 @@ sudo gedit /opt/lampp/etc/extra/httpd-xampp.conf <br/>
 <Directory "/opt/lampp/phpmyadmin"> <br/>
   AllowOverride AuthConfig Limit <br/>
   Require all granted <br/>
-</Directory> <br/>
+</Directory>
