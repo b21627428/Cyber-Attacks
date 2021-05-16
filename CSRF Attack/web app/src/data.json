@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "header" : "THY'nin Nisan ayı yolcu sayısı 2,4 milyon, doluluk oranı %58,7 olarak gerçekleşti",
+      "body" : "İSTANBUL, 11 Mayıs (Reuters) - THY'nin THYAO.IS yolcu sayısı Nisan ayında 2,4 milyon olurken, yolcu doluluk oranı ise %58,7 olarak gerçekleşti.THY'nin pandemi kısıtlamalarına bağlı olarak geçen yıl bu dönemde büyük oranda duran hava trafiği nedeniyle...",
+      "picture" : "https://i-invdn-com.akamaized.net/news/LYNXNPEB660FV_L.jpg"
+    },
+    {
+      "id" : 2,
+      "header" : "Türkiye piyasaları kapanışta düştü; BİST 100 1,10% değer kaybetti",
+      "body" : "BİST 100 altında işlem gören ve seansın en iyi performansını sergileyen Alarko Holding A.Ş. (IS:ALARK) 3,13% veya 0,310 puan yükselerek 10,230 seviyesinden işlem görüyor. Bu sırada Turkiye Sigorta AS (IS:TURSG) 2,88% veya 0,160 puan artışla 5,710 seviyesinden işlem görürken Coca-Cola İçecek A.Ş. (IS:CCOLA)...",
+      "picture" : "https://i-invdn-com.akamaized.net/news/Istanbul%20Stock%20Exchange_800x533_L_1428571700.jpg"
+    },
+    {
+      "id" : 3,
+      "header" : "Ford Otosan, Gölcük fabrikasında ara verdiği üretimi bir hafta erken başlatacak ancak kamyon üretimine ara verecek",
+      "body" : "İSTANBUL, 11 Mayıs (Reuters) - Ford (IS:FROTO) Otosan, otomotiv sektörünü dünya genelinde etkileyen yarı iletken malzeme arzındaki sıkıntılar nedeniyle Gölcük fabrikasında ara verdiği üretimi bir hafta erken başlatacağını açıkladı.",
+      "picture" : "https://i-invdn-com.akamaized.net/news/LYNXMPEB5017O_L.jpg"
+    },
+    {
+      "id" : 4,
+      "header" : "Beşiktaş'ı zor rakipler bekliyor",
+      "body" : "Süper Lig şampiyonu Beşiktaş, bu sezon Manchester City'nin Şampiyonlar Ligi şampiyonu olması veya Portekiz'deki finali Chelsea'nin kazanıp aynı zamanda Premier Lig'i ilk dört sırada bitirmesi durumunda 2021-22 sezonunda Devler Ligi'nde doğrudan grup aşamasına başlayacak. Böylece Kartal artık elemelerden gruplara...",
+      "picture" : "https://i.borsagundem.com/2/679/400//files/2021/5/16/1571350/1571350.jpg?v=1621153803"
+    },
+    {
+      "id" : 5,
+      "header" : "Patronların kafasını karıştıracak uçak",
+      "body" : "Yaklaşık 4 yıl sonra 2025’te ticari uçuşlara başlaması planlanan yeni jet, gövde genişliği ve yüksekliğiyle Bombardier Global 7500 ve bir yıl sonra hizmete girecek olan Gulfstream 700 modellerini geride bırakmış olacak. Ancak 2025’e kadar bu iki şirket de tabloyu değiştirecek yeni bir model geliştirebilirler.",
+      "picture" : "https://i.finansgundem.com/2/679/400//files/2021/5/16/1571345/1571345.jpg?v=1621153442"
+    },
+    {
+      "id" : 6,
+      "header" : "Şampiyonluk maçının stresine dayanamadı",
+      "body" : "Fanatik Galatasaray taraftarı olan Günay, doktorların müdahalesine rağmen yaşamını yitirdi.",
+      "picture" : "https://i.borsagundem.com/2/679/400//files/2021/5/16/1571323/1571323.jpg?v=1621153261"
+    },
+    {
+      "id" : 7,
+      "header" : "Filistin'e destek gösterileri büyüyor",
+      "body" : "İsveç, Almanya, İsviçre, Belçika, Hollanda ve Yunanistan'da İsrail'in Doğu Kudüs’teki Filistinlilere yönelik saldırılarına karşı protesto gösterileri düzenledi.",
+      "picture" : "https://i.finansgundem.com/2/679/400//files/2021/5/15/1571283/1571283.jpg?v=1621140122"
+    },
+    {
+      "id" : 8,
+      "header" : "Beyaz Saray'dan İsrail'e basın güvenliği uyarısı",
+      "body" : "Beyaz Saray Sözcüsü Jen Psaki, \"Gazetecilerin ve bağımsız medyanın emniyet ve güvenliğini sağlamanın büyük bir sorumluluk olduğunu İsraillilere doğrudan ilettik\" ifadesini kullandı.",
+      "picture" : "https://i.finansgundem.com/2/679/400//files/2021/5/15/1571276/1571276.jpg?v=1621120861"
+    },
+    {
+      "id" : 9,
+      "header" : "Türk Telekom Pınar Karşıyaka karşısında durumu eşitledi",
+      "body" : "ING Basketbol Süper Ligi play-off çeyrek final ikinci maçında Türk Telekom, konuk ettiği Pınar Karşıyaka'yı 76-70 yenerek seride durumu 1-1'e getirdi.",
+      "picture" : "https://i.dunya.com/storage/files/images/2021/05/15/basketbol-1dBv_cover.jpg"
+    }
+  ]
+}

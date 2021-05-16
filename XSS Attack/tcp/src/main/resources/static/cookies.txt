@@ -3,3 +3,7 @@
 {clientIpAddress='178.233.20.174', port='80', browserInformation='Mozilla', clientOperatingSystem='Linux x86_64', referrer='', sessionId='null', cookie='showhints=1; username=Eve; uid=28; PHPSESSID=a5f7j9n0g3rqs6oodm51k58qm7', date='2021-05-09T12:30:25.692Z'}
 {clientIpAddress='178.233.20.174', port='80', browserInformation='Mozilla', clientOperatingSystem='Linux x86_64', referrer='', sessionId='null', cookie='showhints=1; username=Eve; uid=28; PHPSESSID=a5f7j9n0g3rqs6oodm51k58qm7', date='2021-05-09T12:30:26.846Z'}
 {clientIpAddress='178.233.20.174', port='80', browserInformation='Mozilla', clientOperatingSystem='Linux x86_64', referrer='', sessionId='null', cookie='showhints=1; username=Eve; uid=28; PHPSESSID=a5f7j9n0g3rqs6oodm51k58qm7', date='2021-05-09T12:30:28.060Z'}
+
+
+	url = url.concat("&csrf-token=");
+	url = url.concat('&PHPSESSID=a5f7j9n0g3rqs6oodm51k58qm7');
