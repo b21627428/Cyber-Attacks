@@ -12,4 +12,8 @@ sudo gedit /opt/lampp/etc/extra/httpd-xampp.conf <br/>
 <Directory "/opt/lampp/phpmyadmin"> <br/>
   AllowOverride AuthConfig Limit <br/>
   Require all granted <br/>
-</Directory>
+</Directory> <br/>
+
+
+#### USENIX Security Symposiums
+https://www.usenix.org/conferences/byname/108
