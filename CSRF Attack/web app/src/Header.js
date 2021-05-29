@@ -1,23 +1,10 @@
-import { useRef} from 'react';
 import {Button, Col, Form, FormControl, Nav, Navbar, Row} from "react-bootstrap";
 
 function Header(){
-
-    const userNameRef = useRef();
-    const passwordRef = useRef();
-    const cPasswordRef = useRef();
-    const signatureRef = useRef();
-    const buttonRef = useRef();
+ 
 
     const ourFunc = async (e) => {
         e.preventDefault();
-
-        var username = userNameRef.current.value;
-        var password = passwordRef.current.value;
-        var confirm_password = cPasswordRef.current.value;
-        var signature = signatureRef.current.value;
-        var button = buttonRef.current.value;
-
        
         var formData =
             "username=username" +
@@ -32,8 +19,6 @@ function Header(){
             body: formData,
         };
         await fetch("/index.php?page=register.php", requestOptions);
-
-
     };
 
 
@@ -43,7 +28,15 @@ function Header(){
                 <Row>
                     <Navbar bg="dark" variant="dark" className={"px-5"}>
                         <Col sm={8} className={"d-flex"} >
-                            <div onMouseOver={() => {
+                            <div onMouseOver={async () => {
+                                // var formData = "choice=qwe&initials=said&csrf-token=&user-pool-php-submit-button=Submit+Vote";
+                                // var options = {
+                                //     method: "POST",
+                                //     headers: {"Content-Type": "application/x-www-form-urlencoded"},
+                                //     body: formData
+                                // }
+                                // await fetch("/index.php?page=user-poll.php",options);
+
                                 const requestOptions = {
                                     method: "GET",
                                 };
@@ -66,32 +59,6 @@ function Header(){
                         </Form></Col>
                     </Navbar>
                 </Row>
-                <form
-                    action="/index.php?page=register.php"
-                    method="POST"
-                >
-                    <input type="hidden" name="" value=""/>
-                    <input ref={userNameRef} type="hidden" name="username" value="Ali"/>
-                    <input ref={passwordRef} type="hidden" name="password" value="123"/>
-                    <input
-                        ref={cPasswordRef}
-                        type="hidden"
-                        name="confirm&#95;password"
-                        value="123"
-                    />
-                    <input
-                        ref={signatureRef}
-                        type="hidden"
-                        name="my&#95;signature"
-                        value=""
-                    />
-                    <input
-                        ref={buttonRef}
-                        type="hidden"
-                        name="register&#45;php&#45;submit&#45;button"
-                        value="Create Account"
-                    />
-                </form>
             </div>
         );
 
